@@ -242,6 +242,10 @@ UserInputService.InputChanged:Connect(function(input)
     end
 end)
 
+        )
+    end
+end)
+
 --====================================================
 -- SEPARATE FPS MONITOR GUI
 -- This is NOT inside the main optimization window.
@@ -729,8 +733,8 @@ local function startBoost()
     return success
 end
 
---====================================
-- STOP BOOST
+--====================================================
+-- STOP BOOST
 --====================================================
 
 local function stopBoost()
