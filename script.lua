@@ -1,5 +1,5 @@
 --====================================================
--- ZYURA FPS OPTIMIZATION V3.3
+-- ZYURA FPS OPTIMIZATION V2
 -- Client-side visual optimization
 --
 -- FIXES:
@@ -47,7 +47,7 @@ local function removeOldGui(name)
     end)
 end
 
-removeOldGui("ZyuraFPS_V32")
+removeOldGui("ZyuraFPS_V2")
 removeOldGui("ZyuraFPS_Monitor")
 
 --====================================================
@@ -126,7 +126,7 @@ end
 --====================================================
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "ZyuraFPS_V32"
+screenGui.Name = "ZyuraFPS_V2"
 screenGui.ResetOnSpawn = false
 screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 screenGui.Parent = guiParent
