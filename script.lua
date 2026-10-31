@@ -184,7 +184,7 @@ local function createButton(text, position, size, color)
 end
 
 createLabel(
-    "Zyura Fps Optimization V3.2",
+    "Zyura Fps Optimization V2",
     UDim2.fromOffset(15, 8),
     UDim2.new(1, -30, 0, 32),
     17
